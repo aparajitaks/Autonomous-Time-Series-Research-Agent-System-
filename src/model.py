@@ -1,4 +1,4 @@
-from sktime.forcasting.arima import ARIMA
+from sktime.forecasting.arima import ARIMA
 
 def train_model(train_data):
     model=ARIMA()
